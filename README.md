@@ -10,35 +10,35 @@ Update the server
 sudo apt-get dist-upgrade
 sudo apt-get upgrade</pre>
 
-Instalar apache
+Install apache
 -------
 <pre>sudo apt-get install apache2
 sudo a2enmod setenvif headers deflate filter expires rewrite include
 sudo service apache2 restart</pre>
 
 
-Instalar php
+Install php
 -------
 <pre>sudo apt-get install php5 libapache2-mod-php5 php5-dev</pre>
 
-Reiniciar servidor
+Server restart 
 -------
 <pre>sudo service apache2 restart</pre>
 
 
-Instalar mysql
+Install mysql
 -------
 <pre>sudo apt-get install mysql-server</pre>
 
 
-Instalar modulos para apache y phpmyadmin
+Install apache and phpmyadmin modules
 -------
 <pre>
 sudo apt-get install libapache2-mod-auth-mysql php5-mysql phpmyadmin
 </pre>
 
 
-Instalar git
+Install Git
 -------
 <pre>
 sudo apt-get install git-core
@@ -47,25 +47,25 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 </pre>
 
 
-Instalar intl para las traducciones
+Install intl for translations
 -------
 <pre>
 sudo apt-get install php5-intl
 </pre>
 
 
-Instalar xdebug
+Install xdebug
 -------
 <pre>sudo apt-get install php5-xdebug
 </pre>
 
 
-Instalar acelerador de php
+Install php-apc (Alternative PHP Cache)
 -------
 <pre>sudo apt-get install php-apc</pre>
 
 
-Configurar ini php
+Configure ini php
 -------
 <pre>sudo nano /etc/php5/cli/php.ini
 sudo nano /etc/php5/apache2/php.ini</pre>
@@ -81,20 +81,20 @@ magic_quotes_gpc = Off
 session.auto_start = 0</pre>
 
 
-en el cli
+cli
 <pre>memory_limit = 512M</pre>
 
 
-en apache2
+apache2
 <pre>memory_limit = 64M</pre>
 
 
-Instalar curl
+Install curl
 -------
 <pre>sudo apt-get install curl</pre>
 
 
-Instalar composer
+Install composer
 -------
 <pre>cd /var/www
 curl -sS https://getcomposer.org/installer | php
