@@ -11,7 +11,7 @@ sudo apt-get dist-upgrade
 sudo apt-get upgrade</pre>
 
 Install apache
--------
+
 <pre>sudo apt-get install apache2
 sudo a2enmod setenvif headers deflate filter expires rewrite include
 sudo service apache2 restart</pre>
