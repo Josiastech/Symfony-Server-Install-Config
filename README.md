@@ -1,4 +1,4 @@
-Symfony Server Install Config
+LAMP (Symfony optimized config) Server Install Config
 =============================
 
 Symfony Server Install/Config in Ubuntu
